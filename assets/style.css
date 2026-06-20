@@ -1,0 +1,119 @@
+/* Premium Dark Theme */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+    background-color: #0f172a; /* Deep charcoal / navy background */
+    color: #f8fafc;
+}
+
+/* Base App Background */
+.stApp {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+/* Glassmorphism Effect for Cards */
+.glass-card {
+    background: rgba(30, 41, 59, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+/* Metric Card specific */
+.metric-card {
+    text-align: center;
+}
+
+.metric-title {
+    font-size: 1rem;
+    color: #94a3b8;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.metric-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #f8fafc;
+    margin: 0;
+    background: linear-gradient(90deg, #00d4ff, #8a2be2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Subtext colors */
+.text-success {
+    color: #10b981;
+}
+
+.text-danger {
+    color: #ef4444;
+}
+
+/* Custom Headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    color: #f8fafc;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Sidebar Customization */
+[data-testid="stSidebar"] {
+    background-color: #0b1121;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Primary Button Styling */
+.stButton > button {
+    background: linear-gradient(90deg, #00d4ff, #8a2be2);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    transition: opacity 0.3s ease;
+}
+
+.stButton > button:hover {
+    opacity: 0.9;
+    color: white;
+    box-shadow: 0 4px 15px rgba(138, 43, 226, 0.4);
+}
+
+/* DataFrame Styling */
+[data-testid="stDataFrame"] {
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 8px;
+}
+
+/* File Uploader styling */
+[data-testid="stFileUploader"] {
+    background: rgba(30, 41, 59, 0.6);
+    border: 1px dashed rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+}
