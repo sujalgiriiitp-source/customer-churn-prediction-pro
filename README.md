@@ -1,6 +1,15 @@
 # Customer Churn Prediction Pro
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Latest-red)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple)
+![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-green)
+![License](https://img.shields.io/badge/License-MIT-brightgreen)
+
 A production-ready Customer Churn Prediction & Business Analytics Platform built with Python, Streamlit, Pandas, Scikit-Learn, and Plotly.
+
+
 
 ## 🌟 Overview
 
